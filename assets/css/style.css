@@ -6,13 +6,14 @@
 }
 
 .navbar {
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .brand-title {
@@ -42,7 +43,7 @@
 }
 
 .navbar-links li:hover {
-    background-color: white;
+    background-color: pink;
 }
 
 .toggle-button {
@@ -52,8 +53,8 @@
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 20px;
+    height: 20px;
 }
 
 .toggle-button .bar {
@@ -111,7 +112,7 @@ footer {
 footer {
     background-color: black;
     color: black;
-    min-height: 120px;
+    min-height: 70px;
     margin: 0;
 }
 
@@ -128,31 +129,13 @@ footer {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-.three-reasons-icon {
-    font-size: 26px;
-    color: #EA159F;
-}
-body {
+body.index {
  background-image: url("../images/new-record.png");
  background-repeat: no-repeat;
+ }
+
+body {
  padding: 0px;
  margin: 0px;
 }
@@ -170,11 +153,15 @@ margin-left: 40px;
 .image-cover {
 
     margin-left: 60px;
-    margin-top: 40px;
-
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .video {
    margin-top: 50px;
-   margin-left: 50px; 
+   margin-left: 60px; 
 }
+
+
+
+
