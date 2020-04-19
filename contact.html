@@ -14,7 +14,7 @@
 
 	<body>
 		 <nav class="navbar">
-      <div class="brand-title"><img src="assets/images/logo.png" height=70></div>
+      <div class="brand-title"><img src="assets/images/lunar2.png" height=70></div>
         <a href="#" class="toggle-button"> <!---Used video tuturiols on creating toggle toolbar --->
           <span class="bar"></span>
           <span class="bar"></span>
@@ -34,58 +34,70 @@
         </div>
       </nav>
 
-<form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
+</div>  
+   <div class="row">
+    <div class="col-lg-8">
+<div class="card card-margin">
+  <div class="card-body">
+ 
+   
+
+        <form action="contact.html" method="POST">
+            <div class="form-group">
+                 <h5><label for="inputName">Name</label></h5>
+<input type="text" name="name" class="form-control" tabindex="4" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                 <h5><label for="inputEmail">Email</label></h5>
+
+                <input type="email" name="email" class="form-control" tabindex="2" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                 <h5><label for="Mobile">Mobile</label></h5>
+
+                <input type="tel" name="mobile" class="form-control" tabindex="3" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+            </div>
+            
+ <div class="form-group">
+                 <h5><label for="Music">Music-Links</label></h5>
+
+                <input type="text" name="musc-links" class="form-control" tabindex="3" placeholder="Enter your music-links" required>
+            </div>
+
+            <div class="form-group">
+                 <h5><label for="inputMessage">About You</label></h5>
+<textarea name="message" class="form-control" tabindex="4" placeholder="Write your details" required>All about you...</textarea>
+                
+            </div>
+            <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+        </form>
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
+ 
+</div>
+
+
+
+</div>
+<div class="col-md-3">
+  <div class="card" class="card-right">
+  <div class="card-body">
+<h3><b>Director</b></h3>
+<h4><i>Dawn Manning</i></h4>
+ Glandore Road,
+  <br>Leap,
+  <br>Co.Cork
+  <br>Phone: 085-1081537
+ </div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9917.170753627704!2d-9.149621866387339!3d51.5811989243553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4845a9553d939cad%3A0xa00c7a99731ce10!2sDrom%2C%20Leap%2C%20Co.%20Cork!5e0!3m2!1sen!2sie!4v1587289511072!5m2!1sen!2sie" width="275" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+</div>
+</div>
+
 
     <footer>
-
-
-
-
 
 
 <a href="#" class="fa fa-facebook"></a>
@@ -94,7 +106,7 @@
 <a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-snapchat"></a>
 
-
+<p class= "footertext2">© Lunar Records Limited-2020</p>
     </footer>
     
 </body>
